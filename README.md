@@ -26,7 +26,17 @@ It is also possible to setup the environment by `pip install -r requirements.txt
 * [DWIE](https://github.com/klimzaporojets/DWIE)
 * Note that you should process DWIE to fit the same format as DocRED. Put the dataset into the directory `./data`.
 
- 
+## Train
+The training process of model will be started after runing `python run.py`. And, you should set `--base_train` as `True` to perform the training of the first stage.
+The second stage's training is carried out when setting  `--base_train` as `False`.
+
+## Test
+To get the result on test set, run:
+```
+python run.py --do_train False --do_predict
+```
+Then a test result file in the official evaluation format will be saved.
+Compress and submit it to [CodaLab](https://competitions.codalab.org/competitions/20717) to get the final test score.
 
 
 
