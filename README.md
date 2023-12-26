@@ -2,7 +2,7 @@
 
 This repository contains codes for the proposed model **MAN-SRE** (Entity-specific **M**ention **A**ttention **N**etwork and **S**elective **R**epresentation **E**nhancement).
 <div  align="center">  
-<img src="./MAN-SRE.png" width = "400" height = "350" align=center />
+<img src="./MAN-SRE.png" width = "600" height = "350" align=center />
 </div>  
 
 ## Requirements
